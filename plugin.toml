@@ -1,0 +1,3 @@
+[plugin]
+description = "dokku plugin that can be used to restrict commands to certain users"
+version = "0.0.1"
