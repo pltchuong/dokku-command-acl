@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -eo pipefail; [[ $DOKKU_TRACE ]] && set -x
 
-SSH_USER=$1
-SSH_NAME=$2
+SSH_USER=$0
+SSH_NAME=$1
 shift 2
 [[ "$SSH_NAME" == "admin" ]] && exit 0
 [[ "$SSH_NAME" == "pltchuong" ]] && exit 0
