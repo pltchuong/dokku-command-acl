@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
 set -eo pipefail; [[ $DOKKU_TRACE ]] && set -x
 
-SSH_USER=$0
-SSH_NAME=$1
-[[ "$SSH_NAME" == "admin" ]] && exit 0
-[[ "$SSH_NAME" == "pltchuong" ]] && exit 0
-[[ "$SSH_NAME" == "alex" ]] && exit 0
-exit 1
+exit 0
